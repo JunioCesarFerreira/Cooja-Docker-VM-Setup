@@ -4,9 +4,9 @@ Elementary scripts for running the Cooja Contike-NG simulator using Docker conta
 
 ## About the Current Version
 
-- [SSH Cooja environment](./ssh-docker-cooja): This is the main object of this repository. How to build a docker image for use with cooja via SSH. Useful for large-scale simulations.
+- [SSH Cooja environment](./ssh-docker-cooja): This is the main object of this repository. How to build a docker image for use with cooja via SSH. Useful for large-scale simulations. Docker image available on [DockerHub](https://hub.docker.com/repository/docker/juniocesarferreira/simulation-cooja/general).
 
-- [Test Terminal Docker Cooja](./test-docker-cooja): This is the project for testing and implementing new features in the Cooja container.
+- [Test Terminal Docker Cooja](./test-docker-cooja): This is the project for testing and implementing new features in the Cooja container. Docker image available on [DockerHub](https://hub.docker.com/repository/docker/juniocesarferreira/docker-cooja/general).
 
 ## Using Cooja with a Virtual Machine (VM)
 

@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  cooja:
+    build:
+      context: ./cooja
+    container_name: cooja_simulator
+    volumes:
+      - ./cooja/simulation:/opt/contiki-ng/metrica
+      - ./logs:/opt/contiki-ng/logs
+    ports:
+      - "60001:60001"
+      - "60002:60002"
+      - "2223:22"

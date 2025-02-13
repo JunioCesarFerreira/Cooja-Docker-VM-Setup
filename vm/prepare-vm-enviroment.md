@@ -91,6 +91,11 @@ This guide provides step-by-step instructions to set up Contiki-NG and use the C
    ```
 
    The first build might take a few minutes.
+   
+   Maybe you need install JDK:
+   ```bash
+   sudo apt install openjdk-17-jdk -y
+   ```
 
 3. **Test Cooja**:
 

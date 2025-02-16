@@ -48,6 +48,10 @@ The root password is set to `root`.
 Run the following command inside the Cooja container to start a simulation:
 
 ```bash
+cd /opt/contiki-ng/tools/cooja
+```
+
+```bash
 java -Xms4g -Xmx4g -jar build/libs/cooja.jar --no-gui sim-config.csc
 ```
 

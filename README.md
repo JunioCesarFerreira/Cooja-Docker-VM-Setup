@@ -13,6 +13,10 @@ Elementary scripts for running the [Contiki-NG](https://github.com/contiki-ng/co
 To use the Cooja GUI and handle simulations, you can set up a Virtual Machine (VM). Learn how to do this [here](./vm/prepare-vm-enviroment.md).
 
 
+## Using Example
+This [example](./example) presents a flow for use with both a VM and a Docker Container, allowing you to exchange information between them as needed for simulations. We also include some tools to make experimentation easier. The simulation in the example uses RPL UDP with some mobile motes and with metrics collected from clients by the server.
+
+
 ## Contributions
 
 Corrections and improvements are always welcome!

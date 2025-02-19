@@ -1,0 +1,140 @@
+[32mINFO  [main] [Cooja.java:1145] - Loading simulation.csc random seed: null[0;39m
+> make -j8 udp-server.cooja TARGET=cooja
+  CC        udp-server.c
+  CC        ../../arch/platform/cooja/./rtimer-arch.c
+  CC        ../../arch/platform/cooja/dev/watchdog.c
+  CC        ../../arch/platform/cooja/./int-master.c
+  CC        ../../arch/platform/cooja/dev/beep.c
+  CC        ../../arch/platform/cooja/dev/ip.c
+  CC        ../../arch/platform/cooja/dev/leds-arch.c
+  CC        ../../arch/platform/cooja/dev/moteid.c
+  CC        ../../arch/platform/cooja/dev/pir-sensor.c
+  CC        ../../arch/platform/cooja/dev/rs232.c
+  CC        ../../arch/platform/cooja/dev/vib-sensor.c
+  CC        ../../arch/platform/cooja/cfs/cfs-cooja.c
+  CC        ../../arch/platform/cooja/sys/clock.c
+  CC        ../../arch/platform/cooja/dev/cooja-radio.c
+  CC        ../../arch/platform/cooja/./slip-arch.c
+  CC        ../../arch/platform/cooja/./platform.c
+  CC        ../../arch/platform/cooja/./mtype.c
+  CC        ../../os/lib/sensors.c
+  CC        ../../os/dev/leds.c
+  CC        ../../arch/platform/cooja/dev/gpio-hal-arch.c
+  CC        ../../arch/platform/cooja/dev/buttons.c
+  CC        ../../os/contiki-main.c
+  CC        ../../os/dev/button-hal.c
+  CC        ../../os/dev/gpio-hal.c
+  CC        ../../os/dev/serial-line.c
+  CC        ../../os/dev/slip.c
+  CC        ../../os/lib/aes-128.c
+  CC        ../../os/lib/assert.c
+  CC        ../../os/lib/ccm-star.c
+  CC        ../../os/lib/circular-list.c
+  CC        ../../os/lib/csprng.c
+  CC        ../../os/lib/dbl-circ-list.c
+  CC        ../../os/lib/dbl-list.c
+  CC        ../../os/lib/heapmem.c
+  CC        ../../os/lib/hexconv.c
+  CC        ../../os/lib/ifft.c
+  CC        ../../os/lib/iq-seeder.c
+  CC        ../../os/lib/list.c
+  CC        ../../os/lib/memb.c
+  CC        ../../os/lib/ringbuf.c
+  CC        ../../os/lib/ringbufindex.c
+  CC        ../../os/lib/sha-256.c
+  CC        ../../os/lib/trickle-timer.c
+  CC        ../../os/net/link-stats.c
+  CC        ../../os/net/linkaddr.c
+  CC        ../../os/net/nbr-table.c
+  CC        ../../os/net/net-debug.c
+  CC        ../../os/net/packetbuf.c
+  CC        ../../os/net/netstack.c
+  CC        ../../os/net/queuebuf.c
+  CC        ../../os/net/ipv6/ip64-addr.c
+  CC        ../../os/net/ipv6/psock.c
+  CC        ../../os/net/ipv6/sicslowpan.c
+  CC        ../../os/net/ipv6/simple-udp.c
+  CC        ../../os/net/ipv6/tcp-socket.c
+  CC        ../../os/net/ipv6/tcpip.c
+  CC        ../../os/net/ipv6/udp-socket.c
+  CC        ../../os/net/ipv6/uip-ds6-nbr.c
+  CC        ../../os/net/ipv6/uip-ds6-route.c
+  CC        ../../os/net/ipv6/uip-ds6.c
+  CC        ../../os/net/ipv6/uip-icmp6.c
+  CC        ../../os/net/ipv6/uip-nameserver.c
+  CC        ../../os/net/ipv6/uip-nd6.c
+  CC        ../../os/net/ipv6/uip-packetqueue.c
+  CC        ../../os/net/ipv6/uip-sr.c
+  CC        ../../os/net/ipv6/uip-udp-packet.c
+  CC        ../../os/net/ipv6/uip6.c
+  CC        ../../os/net/ipv6/uipbuf.c
+  CC        ../../os/net/ipv6/uiplib.c
+  CC        ../../os/net/mac/anti-replay.c
+  CC        ../../os/net/mac/ccm-star-packetbuf.c
+  CC        ../../os/net/mac/mac-sequence.c
+  CC        ../../os/net/mac/framer/frame802154.c
+  CC        ../../os/net/mac/framer/frame802154e-ie.c
+  CC        ../../os/net/mac/framer/framer-802154.c
+  CC        ../../os/net/mac/framer/nullframer.c
+  CC        ../../os/net/mac/tsch/tsch-adaptive-timesync.c
+  CC        ../../os/net/mac/tsch/tsch-log.c
+  CC        ../../os/net/mac/tsch/tsch-packet.c
+  CC        ../../os/net/mac/tsch/tsch-queue.c
+  CC        ../../os/net/mac/tsch/tsch-roots.c
+  CC        ../../os/net/mac/tsch/tsch-rpl.c
+  CC        ../../os/net/mac/tsch/tsch-schedule.c
+  CC        ../../os/net/mac/tsch/tsch-security.c
+  CC        ../../os/net/mac/tsch/tsch-slot-operation.c
+  CC        ../../os/net/mac/tsch/tsch-stats.c
+  CC        ../../os/net/mac/tsch/tsch-timeslot-timing.c
+  CC        ../../os/net/mac/tsch/tsch.c
+  CC        ../../os/net/routing/rpl-lite/rpl-dag-root.c
+  CC        ../../os/net/routing/rpl-lite/rpl-dag.c
+  CC        ../../os/net/routing/rpl-lite/rpl-ext-header.c
+  CC        ../../os/net/routing/rpl-lite/rpl-icmp6.c
+  CC        ../../os/net/routing/rpl-lite/rpl-mrhof.c
+  CC        ../../os/net/routing/rpl-lite/rpl-nbr-policy.c
+  CC        ../../os/net/routing/rpl-lite/rpl-neighbor.c
+  CC        ../../os/net/routing/rpl-lite/rpl-of0.c
+  CC        ../../os/net/routing/rpl-lite/rpl-timers.c
+  CC        ../../os/net/routing/rpl-lite/rpl.c
+  CC        ../../os/sys/atomic.c
+  CC        ../../os/sys/autostart.c
+  CC        ../../os/sys/ctimer.c
+  CC        ../../os/sys/energest.c
+  CC        ../../os/sys/compower.c
+  CC        ../../os/sys/etimer.c
+  CC        ../../os/sys/log.c
+  CC        ../../os/sys/mutex.c
+  CC        ../../os/sys/node-id.c
+  CC        ../../os/sys/process.c
+  CC        ../../os/sys/rtimer.c
+  CC        ../../os/sys/stimer.c
+  CC        ../../os/sys/timer.c
+  LD        build/cooja/udp-server.cooja
+> make -j8 udp-client.cooja TARGET=cooja
+  CC        udp-client.c
+  LD        build/cooja/udp-client.cooja
+[32mINFO  [main] [LogScriptEngine.java:231] - Script timeout in 9001000 ms[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] -  5% completed, 310.1 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 10% completed, 251.1 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 15% completed, 239.2 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 20% completed, 217.9 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 25% completed, 215.0 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 30% completed, 196.9 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 35% completed, 180.0 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 40% completed, 167.2 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 45% completed, 150.6 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 50% completed, 137.0 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 55% completed, 122.2 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 60% completed, 107.2 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 65% completed, 94.3 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 70% completed, 80.7 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 75% completed, 67.5 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 80% completed, 53.5 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 85% completed, 39.8 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 90% completed, 26.6 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 95% completed, 13.3 sec remaining[0;39m
+[32mINFO  [sim] [Simulation.java:450] - Runtime: 270567 ms. Simulated time: 9000320 ms. Speedup: 33.26466272679225[0;39m
+[32mINFO  [main] [Cooja.java:1171] - TEST OK
+[0;39m

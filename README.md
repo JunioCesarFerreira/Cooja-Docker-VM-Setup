@@ -1,5 +1,7 @@
 # **Cooja Docker VM Setup**
 
+🌍 *[Português](README_pt.md)*
+
 Elementary scripts for running the [Contiki-NG](https://github.com/contiki-ng/contiki-ng)'s [Cooja](https://github.com/contiki-ng/cooja) simulator using Docker containers. In this repository we also show how to setup a VM for use with Cooja.
 
 ## About the Current Version

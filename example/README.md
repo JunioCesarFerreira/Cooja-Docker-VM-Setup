@@ -1,5 +1,7 @@
 # Contiki-NG Simulation with Cooja
 
+🌍 *[Português](README_pt.md)*
+
 This example contains Contiki-NG simulation code for network performance and energy consumption evaluation using the Cooja simulator.
 
 ## Project Overview

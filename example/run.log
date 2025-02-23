@@ -11,8 +11,8 @@
   CC        ../../arch/platform/cooja/dev/pir-sensor.c
   CC        ../../arch/platform/cooja/dev/rs232.c
   CC        ../../arch/platform/cooja/dev/vib-sensor.c
-  CC        ../../arch/platform/cooja/cfs/cfs-cooja.c
   CC        ../../arch/platform/cooja/sys/clock.c
+  CC        ../../arch/platform/cooja/cfs/cfs-cooja.c
   CC        ../../arch/platform/cooja/dev/cooja-radio.c
   CC        ../../arch/platform/cooja/./slip-arch.c
   CC        ../../arch/platform/cooja/./platform.c
@@ -24,15 +24,15 @@
   CC        ../../os/contiki-main.c
   CC        ../../os/dev/button-hal.c
   CC        ../../os/dev/gpio-hal.c
-  CC        ../../os/dev/serial-line.c
   CC        ../../os/dev/slip.c
+  CC        ../../os/dev/serial-line.c
   CC        ../../os/lib/aes-128.c
   CC        ../../os/lib/assert.c
   CC        ../../os/lib/ccm-star.c
   CC        ../../os/lib/circular-list.c
   CC        ../../os/lib/csprng.c
-  CC        ../../os/lib/dbl-circ-list.c
   CC        ../../os/lib/dbl-list.c
+  CC        ../../os/lib/dbl-circ-list.c
   CC        ../../os/lib/heapmem.c
   CC        ../../os/lib/hexconv.c
   CC        ../../os/lib/ifft.c
@@ -47,8 +47,8 @@
   CC        ../../os/net/linkaddr.c
   CC        ../../os/net/nbr-table.c
   CC        ../../os/net/net-debug.c
-  CC        ../../os/net/packetbuf.c
   CC        ../../os/net/netstack.c
+  CC        ../../os/net/packetbuf.c
   CC        ../../os/net/queuebuf.c
   CC        ../../os/net/ipv6/ip64-addr.c
   CC        ../../os/net/ipv6/psock.c
@@ -78,8 +78,8 @@
   CC        ../../os/net/mac/framer/nullframer.c
   CC        ../../os/net/mac/tsch/tsch-adaptive-timesync.c
   CC        ../../os/net/mac/tsch/tsch-log.c
-  CC        ../../os/net/mac/tsch/tsch-packet.c
   CC        ../../os/net/mac/tsch/tsch-queue.c
+  CC        ../../os/net/mac/tsch/tsch-packet.c
   CC        ../../os/net/mac/tsch/tsch-roots.c
   CC        ../../os/net/mac/tsch/tsch-rpl.c
   CC        ../../os/net/mac/tsch/tsch-schedule.c
@@ -100,9 +100,9 @@
   CC        ../../os/net/routing/rpl-lite/rpl.c
   CC        ../../os/sys/atomic.c
   CC        ../../os/sys/autostart.c
+  CC        ../../os/sys/compower.c
   CC        ../../os/sys/ctimer.c
   CC        ../../os/sys/energest.c
-  CC        ../../os/sys/compower.c
   CC        ../../os/sys/etimer.c
   CC        ../../os/sys/log.c
   CC        ../../os/sys/mutex.c
@@ -115,26 +115,26 @@
 > make -j8 udp-client.cooja TARGET=cooja
   CC        udp-client.c
   LD        build/cooja/udp-client.cooja
-[32mINFO  [main] [LogScriptEngine.java:231] - Script timeout in 9001000 ms[0;39m
-[32mINFO  [sim] [LogScriptEngine.java:320] -  5% completed, 310.1 sec remaining[0;39m
-[32mINFO  [sim] [LogScriptEngine.java:320] - 10% completed, 251.1 sec remaining[0;39m
-[32mINFO  [sim] [LogScriptEngine.java:320] - 15% completed, 239.2 sec remaining[0;39m
-[32mINFO  [sim] [LogScriptEngine.java:320] - 20% completed, 217.9 sec remaining[0;39m
-[32mINFO  [sim] [LogScriptEngine.java:320] - 25% completed, 215.0 sec remaining[0;39m
-[32mINFO  [sim] [LogScriptEngine.java:320] - 30% completed, 196.9 sec remaining[0;39m
-[32mINFO  [sim] [LogScriptEngine.java:320] - 35% completed, 180.0 sec remaining[0;39m
-[32mINFO  [sim] [LogScriptEngine.java:320] - 40% completed, 167.2 sec remaining[0;39m
-[32mINFO  [sim] [LogScriptEngine.java:320] - 45% completed, 150.6 sec remaining[0;39m
-[32mINFO  [sim] [LogScriptEngine.java:320] - 50% completed, 137.0 sec remaining[0;39m
-[32mINFO  [sim] [LogScriptEngine.java:320] - 55% completed, 122.2 sec remaining[0;39m
-[32mINFO  [sim] [LogScriptEngine.java:320] - 60% completed, 107.2 sec remaining[0;39m
-[32mINFO  [sim] [LogScriptEngine.java:320] - 65% completed, 94.3 sec remaining[0;39m
-[32mINFO  [sim] [LogScriptEngine.java:320] - 70% completed, 80.7 sec remaining[0;39m
-[32mINFO  [sim] [LogScriptEngine.java:320] - 75% completed, 67.5 sec remaining[0;39m
-[32mINFO  [sim] [LogScriptEngine.java:320] - 80% completed, 53.5 sec remaining[0;39m
-[32mINFO  [sim] [LogScriptEngine.java:320] - 85% completed, 39.8 sec remaining[0;39m
-[32mINFO  [sim] [LogScriptEngine.java:320] - 90% completed, 26.6 sec remaining[0;39m
-[32mINFO  [sim] [LogScriptEngine.java:320] - 95% completed, 13.3 sec remaining[0;39m
-[32mINFO  [sim] [Simulation.java:450] - Runtime: 270567 ms. Simulated time: 9000320 ms. Speedup: 33.26466272679225[0;39m
+[32mINFO  [main] [LogScriptEngine.java:231] - Script timeout in 1501000 ms[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] -  5% completed, 132.7 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 10% completed, 119.3 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 15% completed, 107.2 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 20% completed, 97.5 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 25% completed, 88.4 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 30% completed, 80.9 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 35% completed, 74.4 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 40% completed, 68.4 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 45% completed, 62.4 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 50% completed, 56.6 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 55% completed, 50.5 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 60% completed, 44.6 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 65% completed, 38.8 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 70% completed, 33.1 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 75% completed, 27.3 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 80% completed, 21.8 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 85% completed, 16.2 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 90% completed, 10.8 sec remaining[0;39m
+[32mINFO  [sim] [LogScriptEngine.java:320] - 95% completed,  5.4 sec remaining[0;39m
+[32mINFO  [sim] [Simulation.java:450] - Runtime: 106664 ms. Simulated time: 1500218 ms. Speedup: 14.06489537238431[0;39m
 [32mINFO  [main] [Cooja.java:1171] - TEST OK
 [0;39m

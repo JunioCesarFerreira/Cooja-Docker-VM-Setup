@@ -40,15 +40,11 @@ These applications use IPv6 over TSCH for communication and leverage the Energes
 1. Ensure the container is running. [See](https://github.com/JunioCesarFerreira/Cooja-Docker-VM-Setup/tree/main/ssh-docker-cooja).
 2. Use `send-docker.py` to transfer files to the container.
 3. Connect to the container via SSH.
-4. Inside the container, rename the simulation file:
-   ```sh
-   mv simulation.xml simulation.csc
-   ```
-5. Run Cooja in headless mode:
+4. Run Cooja in headless mode:
    ```sh
    java --enable-preview -Xms4g -Xmx4g -jar build/libs/cooja.jar --no-gui simulation.csc > sim.log
    ```
-6. Use `fetch-docker.py` to retrieve the simulation results.
+5. Use `fetch-docker.py` to retrieve the simulation logs results.
 
 ### Using Positions Management
 The [notebook](positions-mngmt.ipynb) provides tools to generate and visualize node positions for simulations and to create `positions.dat` and `simulation.xml` files for configuring simulation environments. Even with some simple mobility. 

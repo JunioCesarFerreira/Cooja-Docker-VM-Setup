@@ -46,13 +46,11 @@ RUN ./gradlew build --no-daemon --stacktrace --info
 # Configurar o diretório de trabalho para o Cooja
 WORKDIR /opt/contiki-ng/tools/cooja
 
-# Copiar o arquivo de simulação
 COPY /simulation/simulation_config.xml sim-config.csc
 
-# Expor portas
 EXPOSE 22 60001 60002
 
-# Forçar variável de ambiente para uso do java
+# Make Java available in SSH sessions.
 RUN echo 'export PATH=$PATH:/opt/java/openjdk/bin' >> /root/.bashrc
 
 # Iniciar o OpenSSH e manter o container ativo
